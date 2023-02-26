@@ -1,0 +1,116 @@
+---
+title: "ML_Project"
+author: "Risshikaa Yantrapati"
+date: "2023-02-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(arules)
+transactions <- read.transactions("C:/Users/rissh/OneDrive/Desktop/ML_Project/transactions_data.csv", format = "basket", rm.duplicates = FALSE, cols = NULL, sep = ",")
+```
+
+```{r}
+num_data <- read.csv("C:/Users/rissh/OneDrive/Desktop/ML_Project/numeric_housing_prices.csv")
+scaled_data <- scale(num_data[,1:10])
+km <- kmeans(scaled_data, centers = 4, nstart = 25)
+```
+
+## Visulizing k-means
+```{r}
+library(factoextra)
+library(ggplot2)
+library(proxy)
+factoextra::fviz_cluster(km, data = scaled_data, geom = "point", ellipse.type = "convex")
+```
+
+# Hierarchical Clustering
+
+## Sampling numeric data
+```{r}
+sample = num_data[seq(150,200, by = 5),]
+sample_scaled <- scale(sample)
+```
+
+## Calculating distance matrices based on Euclidean, Canberra and Manhattan methods
+```{r}
+distMatrix_E <- dist(sample_scaled, method="euclidean")
+distMatrix_Mi <- dist(sample_scaled, method="minkowski", p =3)
+distMatrix_M <- dist(sample_scaled, method="manhattan")
+distMatrix_c <- dist(sample_scaled, method = "cosine")
+```
+
+library(arulesviz)
+
+## Hierarchical clustering based on Euclidean distance
+```{r}
+## Euclidean
+groups_E <- hclust(distMatrix_E,method="ward.D")
+plot(groups_E, cex=0.9, hang=-1, main = "Euclidean")
+rect.hclust(groups_E, k=3)
+```
+## Hierarchical clustering based on Minkowski distance
+```{r}
+## Minkowski
+groups_Mi <- hclust(distMatrix_Mi,method="ward.D")
+plot(groups_Mi, cex=0.9, hang=-1, main = "Minkowski")
+rect.hclust(groups_E, k=3)
+```
+## Hierarchical clustering based on Manhattan distance
+```{r}
+## Manhattan
+groups_M <- hclust(distMatrix_M,method="ward.D")
+plot(groups_M, cex=0.9, hang=-1, main = "Manhattan")
+rect.hclust(groups_E, k=3)
+```
+
+```{r}
+groups_c <- hclust(as.dist(distMatrix_c),method="ward.D")
+plot(groups_M, cex=0.9, hang=-1, main = "Cosine")
+rect.hclust(groups_c, k=3)
+
+```
+
+```{r}
+housing_prices <- read.csv("C:/Users/rissh/OneDrive/Desktop/ML_Project/housing_prices_test.csv")
+```
+## Association Rule Mining
+```{r}
+rules <- arules::apriori(transactions, parameter = list(support = 0.045, confidence = 0.05, minlen = 2))
+inspect(rules)
+```
+
+## Rules based on Confidence
+```{r}
+SortRules_Conf <- sort(rules, by = 'confidence', decreasing = TRUE)
+inspect(SortRules_Conf[1:15])
+```
+## Rules based on Lift
+```{r}
+SortRules_Lift <- sort(rules, by = 'lift', decreasing = TRUE)
+inspect(SortRules_Lift[1:15])
+```
+## Rules based on Support
+```{r}
+SortRules_Sup <- sort(rules, by = 'support', decreasing = TRUE)
+inspect(SortRules_Sup[1:15])
+```
+```{r}
+library(arulesViz)
+plot(SortRules_Conf, method="graph", engine="interactive", limit = 15)
+```
+```{r}
+library(arulesViz)
+plot(SortRules_Lift, method="graph", engine="interactive", limit = 15)
+```
+
+```{r}
+library(arulesViz)
+plot(SortRules_Sup, method="graph", engine="interactive", limit = 15)
+```
+
+
