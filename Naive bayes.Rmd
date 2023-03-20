@@ -1,0 +1,50 @@
+---
+title: "Project"
+author: "Risshikaa Yantrapati"
+date: "2023-03-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(naivebayes)
+library(dplyr)
+library(datasets)
+library(caTools)
+library(e1071)
+
+
+MyPath="C:/Users/rissh/OneDrive/Desktop/ML_Project" 
+setwd(MyPath)
+
+Record_DF <- read.csv('dt_numeric.csv', stringsAsFactors=TRUE) # all non-numeric columns should be factors
+head(Record_DF)
+str(Record_DF)
+#Record_DF <- Record_DF[,-c(1,2,18,19,20,21,22,23,24,25,26)]
+#Record_DF <- Record_DF[,-c(1,2,11,12,14,15,16,18,19,20,21,22,23,24,25,26)]
+#head(Record_DF)
+
+
+set.seed(123)
+sample_data = sample.split(Record_DF, SplitRatio = 0.8)
+train_data <- subset(Record_DF, sample_data == TRUE)
+test_data <- subset(Record_DF, sample_data == FALSE)
+
+# removing labels and storing them seperately for both training and testing data
+TrainKnownLabels <- train_data$SaleCondition
+train_data <- train_data[ , -which(names(train_data) %in% c("SaleCondition"))]
+TestKnownLabels <- test_data$SaleCondition
+test_data <- test_data[ , -which(names(test_data) %in% c("SaleCondition"))]
+
+(model_NB <- naiveBayes(train_data, TrainKnownLabels, laplace = 1))
+predictions <- predict(model_NB, test_data)
+
+tab_NB <- table(predictions,TestKnownLabels)
+tab_NB
+
+accuracy_Test <- sum(diag(tab_NB)) / sum(tab_NB)
+accuracy_Test * 100
+```

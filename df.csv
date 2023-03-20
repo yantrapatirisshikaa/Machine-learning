@@ -1,0 +1,151 @@
+index,MSSubClass,MSZoning,LotFrontage,LotArea,Street,Utilities,Neighborhood,BldgType,OverallCond,YearBuilt,Foundation,BsmtCond,BsmtExposure,Heating,HeatingQC,CentralAir,Electrical,FullBath,BedroomAbvGr,KitchenAbvGr,Fireplaces,GarageType,GarageCars,PoolQC,Fence,MiscFeature,SaleCondition,SalePrice
+654,20,RL,91,10437,Pave,AllPub,NoRidge,1Fam,6,1995,PConc,TA,Gd,GasA,Ex,Y,SBrkr,2,2,1,1,Attchd,3,NP,No Fence,Attchd,Normal,350000
+750,50,RM,55,8800,Pave,AllPub,OldTown,1Fam,7,1910,BrkTil,Fa,No,GasA,Gd,Y,SBrkr,1,3,1,0,NG,0,NP,No Fence,NG,Normal,96500
+1186,190,RL,107,10615,Pave,AllPub,OldTown,2fmCon,5,1900,CBlock,TA,Mn,GasA,TA,Y,SBrkr,2,3,2,0,CarPort,2,NP,No Fence,CarPort,Abnorml,95000
+960,20,RL,50,7207,Pave,AllPub,BrkSide,1Fam,7,1958,CBlock,TA,Gd,GasA,Gd,Y,SBrkr,1,2,1,0,NG,0,NP,No Fence,NG,Normal,116500
+455,20,RL,80,9600,Pave,AllPub,NWAmes,1Fam,6,1973,CBlock,TA,No,GasA,Fa,Y,SBrkr,1,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,175500
+86,60,RL,122,11911,Pave,AllPub,Gilbert,1Fam,5,2005,PConc,TA,Av,GasA,Ex,Y,SBrkr,2,3,1,1,BuiltIn,2,NP,No Fence,BuiltIn,Normal,174000
+118,60,RL,90,12376,Pave,AllPub,SawyerW,1Fam,5,1990,PConc,TA,Mn,GasA,Gd,Y,SBrkr,3,5,1,2,Attchd,3,NP,No Fence,Attchd,Normal,320000
+892,20,RL,70,8414,Pave,AllPub,Sawyer,1Fam,8,1963,CBlock,TA,No,GasA,TA,Y,SBrkr,1,3,1,0,Attchd,1,NP,MnPrv,Attchd,Normal,154500
+1300,60,RL,NV,10762,Pave,AllPub,Gilbert,1Fam,5,1999,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,225000
+869,60,RL,80,9938,Pave,AllPub,SawyerW,1Fam,5,1993,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,2,NP,GdPrv,Attchd,Normal,236000
+60,20,RL,63,13072,Pave,AllPub,SawyerW,1Fam,5,2004,PConc,TA,No,GasA,Ex,Y,SBrkr,1,3,1,0,Detchd,2,NP,No Fence,Detchd,Partial,158000
+444,60,RL,70,8750,Pave,AllPub,CollgCr,1Fam,5,1994,PConc,TA,No,GasA,Ex,Y,SBrkr,2,4,1,1,Attchd,2,NP,No Fence,Attchd,Normal,210000
+1416,190,RM,60,11340,Pave,AllPub,OldTown,2fmCon,6,1885,PConc,TA,No,GasA,Gd,Y,SBrkr,2,4,2,0,Detchd,2,NP,No Fence,Detchd,Normal,122500
+624,60,RL,80,10400,Pave,AllPub,NWAmes,1Fam,5,1972,CBlock,TA,No,GasA,Gd,Y,SBrkr,1,4,1,1,Attchd,2,NP,No Fence,Attchd,Normal,165150
+882,60,RL,NV,9636,Pave,AllPub,Gilbert,1Fam,5,1992,PConc,TA,No,GasA,Gd,Y,SBrkr,2,3,1,1,BuiltIn,2,NP,MnPrv,BuiltIn,Normal,178000
+480,20,RL,98,16033,Pave,AllPub,NridgHt,1Fam,5,2004,PConc,TA,Gd,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,3,NP,No Fence,Attchd,Normal,326000
+946,80,RL,70,8163,Pave,AllPub,NAmes,1Fam,6,1959,CBlock,TA,Av,GasA,TA,Y,SBrkr,1,3,1,1,Attchd,1,NP,No Fence,Attchd,Normal,143000
+571,20,RL,60,7332,Pave,AllPub,NAmes,1Fam,6,1959,CBlock,TA,No,GasA,Ex,Y,SBrkr,1,2,1,0,Attchd,1,NP,No Fence,Attchd,Abnorml,120000
+244,60,RL,NV,8880,Pave,AllPub,SawyerW,1Fam,5,1994,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,2,Attchd,2,NP,No Fence,Attchd,Normal,205000
+1341,20,RL,66,13695,Pave,AllPub,SawyerW,1Fam,5,2003,PConc,TA,No,GasA,Ex,Y,SBrkr,1,3,1,0,Detchd,2,NP,No Fence,Detchd,Normal,155000
+1446,20,RL,NV,26142,Pave,AllPub,Mitchel,1Fam,7,1962,CBlock,TA,No,GasA,TA,Y,SBrkr,1,3,1,0,Attchd,1,NP,No Fence,Attchd,Normal,157900
+687,160,FV,NV,5105,Pave,AllPub,Somerst,TwnhsE,5,2004,PConc,TA,No,GasA,Ex,Y,SBrkr,2,2,1,0,Detchd,2,NP,No Fence,Detchd,Normal,148800
+614,180,RM,21,1491,Pave,AllPub,MeadowV,TwnhsE,6,1972,CBlock,TA,Av,GasA,Ex,Y,SBrkr,1,1,1,0,NG,0,NP,No Fence,NG,Normal,75500
+576,50,RL,52,6292,Pave,AllPub,SWISU,1Fam,7,1928,BrkTil,TA,No,GasA,Gd,Y,SBrkr,2,3,1,1,Detchd,1,NP,No Fence,Detchd,Normal,145000
+278,20,RL,107,14450,Pave,AllPub,NridgHt,1Fam,5,2006,PConc,TA,Gd,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,3,NP,No Fence,Attchd,Partial,415298
+1418,20,RL,71,9204,Pave,AllPub,NAmes,1Fam,5,1963,CBlock,TA,No,GasA,TA,Y,SBrkr,1,3,1,0,Detchd,1,NP,No Fence,Detchd,Normal,124000
+551,20,RM,50,6000,Pave,AllPub,OldTown,1Fam,6,1957,CBlock,TA,No,GasA,Gd,Y,FuseA,1,3,1,0,Attchd,1,NP,No Fence,Attchd,Normal,112500
+316,60,RL,94,13005,Pave,AllPub,NWAmes,1Fam,7,1980,CBlock,TA,No,GasA,TA,Y,SBrkr,2,4,1,1,Attchd,2,NP,GdPrv,Attchd,Normal,260000
+875,60,FV,75,9000,Pave,AllPub,Somerst,1Fam,5,2007,PConc,TA,Av,GasA,Ex,Y,SBrkr,2,4,1,1,BuiltIn,2,NP,No Fence,BuiltIn,Partial,303477
+143,20,RL,78,10335,Pave,AllPub,CollgCr,1Fam,5,1999,PConc,TA,Gd,GasA,Ex,Y,SBrkr,2,3,1,0,Attchd,2,NP,No Fence,Attchd,Normal,204000
+633,20,RL,80,9250,Pave,AllPub,NAmes,1Fam,7,1954,CBlock,TA,No,GasA,TA,Y,SBrkr,1,3,1,0,Attchd,1,NP,No Fence,Attchd,Normal,139400
+999,20,RL,64,6762,Pave,AllPub,CollgCr,1Fam,5,2006,PConc,TA,Av,GasA,Ex,Y,SBrkr,2,2,1,0,Attchd,2,NP,No Fence,Attchd,Normal,206000
+1160,160,RL,24,2280,Pave,AllPub,NPkVill,Twnhs,5,1978,CBlock,TA,No,GasA,Fa,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,146000
+655,160,RM,21,1680,Pave,AllPub,BrDale,Twnhs,5,1971,CBlock,TA,No,GasA,TA,Y,SBrkr,1,3,1,0,Detchd,1,NP,No Fence,Detchd,Family,88000
+481,20,RL,72,11846,Pave,AllPub,NridgHt,1Fam,5,2003,PConc,TA,Gd,GasA,Ex,Y,SBrkr,2,2,1,1,Attchd,3,NP,No Fence,Attchd,Normal,374000
+45,120,RL,61,7658,Pave,AllPub,NridgHt,TwnhsE,5,2005,PConc,TA,No,GasA,Ex,Y,SBrkr,2,2,1,1,Attchd,2,NP,No Fence,Attchd,Normal,319900
+246,190,RM,69,9142,Pave,AllPub,OldTown,2fmCon,8,1910,Stone,TA,No,GasA,Gd,N,FuseP,2,4,2,0,Detchd,1,NP,No Fence,Detchd,Normal,137000
+416,60,RL,74,7844,Pave,AllPub,Sawyer,1Fam,7,1978,CBlock,TA,No,GasA,TA,Y,SBrkr,1,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,149500
+977,120,FV,35,4274,Pave,AllPub,Somerst,TwnhsE,5,2006,PConc,TA,No,GasA,Ex,Y,SBrkr,1,1,1,0,Attchd,2,NP,No Fence,Attchd,Partial,199900
+194,20,RL,60,7180,Pave,AllPub,CollgCr,1Fam,7,1972,CBlock,TA,Av,GasA,TA,Y,SBrkr,1,3,1,0,Detchd,1,NP,No Fence,Detchd,Normal,127000
+371,50,RL,80,17120,Pave,AllPub,ClearCr,1Fam,4,1959,CBlock,No Basement,NB,GasA,TA,Y,SBrkr,2,4,1,1,Detchd,2,NP,No Fence,Detchd,Normal,134432
+210,30,RL,67,5604,Pave,AllPub,Edwards,1Fam,6,1925,CBlock,TA,No,GasA,TA,N,FuseA,1,2,1,0,NG,0,NP,No Fence,NG,Normal,98000
+332,20,RL,85,10655,Pave,AllPub,NridgHt,1Fam,5,2003,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,3,NP,No Fence,Attchd,Normal,284000
+806,80,RL,75,9750,Pave,AllPub,NAmes,1Fam,5,1967,PConc,TA,Av,GasA,Gd,Y,SBrkr,2,3,1,0,Attchd,1,NP,No Fence,Attchd,Normal,135500
+391,60,RL,71,12209,Pave,AllPub,Mitchel,1Fam,5,2001,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,1,BuiltIn,2,NP,No Fence,BuiltIn,Normal,215000
+116,20,RL,NV,11616,Pave,AllPub,Sawyer,1Fam,5,1962,CBlock,TA,No,GasA,TA,Y,SBrkr,1,3,1,1,Attchd,1,NP,No Fence,Attchd,Normal,139000
+703,190,RM,76,7630,Pave,AllPub,OldTown,2fmCon,9,1900,BrkTil,TA,No,GasA,Gd,Y,SBrkr,2,4,2,1,Detchd,2,NP,MnPrv,Detchd,Normal,140000
+554,60,RL,85,10625,Pave,AllPub,NridgHt,1Fam,5,2003,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,1,BuiltIn,3,NP,No Fence,BuiltIn,Normal,284000
+96,20,RL,78,10264,Pave,AllPub,CollgCr,1Fam,5,1999,PConc,TA,Av,GasA,Ex,Y,SBrkr,2,3,1,0,Attchd,2,NP,No Fence,Attchd,Normal,214000
+509,20,RL,80,9600,Pave,AllPub,NAmes,1Fam,6,1959,CBlock,TA,No,GasA,Ex,Y,SBrkr,1,3,1,0,Attchd,1,NP,MnPrv,Attchd,Normal,124500
+1278,60,RL,75,9473,Pave,AllPub,CollgCr,1Fam,5,2002,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,237000
+828,60,RL,NV,28698,Pave,AllPub,ClearCr,1Fam,5,1967,PConc,Gd,Gd,GasA,TA,Y,SBrkr,2,3,1,0,Attchd,2,NP,No Fence,Attchd,Abnorml,185000
+372,120,RL,50,7175,Pave,AllPub,SawyerW,TwnhsE,5,1984,CBlock,TA,No,GasA,TA,Y,SBrkr,1,2,1,0,Attchd,1,NP,MnPrv,Attchd,Normal,125000
+1433,60,RL,93,10261,Pave,AllPub,Gilbert,1Fam,5,2000,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,186500
+517,60,RL,79,10208,Pave,AllPub,NoRidge,1Fam,5,1996,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,3,NP,No Fence,Attchd,Normal,265000
+1397,70,RM,51,6120,Pave,AllPub,BrkSide,1Fam,8,1920,BrkTil,TA,Mn,GasA,Ex,Y,SBrkr,1,4,1,0,Detchd,1,NP,No Fence,Detchd,Normal,137500
+390,50,RL,50,8405,Pave,AllPub,Edwards,1Fam,8,1900,BrkTil,Gd,No,GasA,Ex,Y,SBrkr,1,4,1,0,Detchd,1,NP,MnPrv,Detchd,Normal,119000
+53,20,RL,68,50271,Pave,AllPub,Veenker,1Fam,5,1981,CBlock,TA,Gd,GasA,Gd,Y,SBrkr,0,0,1,1,Attchd,3,NP,No Fence,Attchd,Normal,385000
+54,80,RL,60,7134,Pave,AllPub,NAmes,1Fam,5,1955,CBlock,TA,No,GasA,TA,Y,SBrkr,1,3,1,1,Detchd,2,NP,MnPrv,Detchd,Normal,130000
+109,20,RL,105,11751,Pave,AllPub,NWAmes,1Fam,6,1977,CBlock,TA,No,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,2,NP,MnPrv,Attchd,Normal,190000
+771,20,RL,67,8877,Pave,AllPub,Edwards,1Fam,5,1951,CBlock,Fa,No,GasA,TA,Y,FuseF,1,2,1,0,Detchd,2,NP,No Fence,Detchd,Normal,102000
+495,30,C (all),60,7879,Pave,AllPub,IDOTRR,1Fam,5,1920,CBlock,TA,No,GasA,TA,N,FuseA,1,2,1,0,NG,0,NP,GdWo,NG,Abnorml,34900
+1191,160,FV,24,2645,Pave,AllPub,Somerst,Twnhs,5,1999,PConc,TA,No,GasA,Ex,Y,SBrkr,2,2,1,0,Detchd,2,NP,No Fence,Detchd,Normal,174000
+983,60,RL,NV,11250,Pave,AllPub,CollgCr,1Fam,5,2002,PConc,TA,Mn,GasA,Ex,Y,SBrkr,2,4,1,1,Attchd,2,NP,No Fence,Attchd,Normal,255900
+789,60,RL,NV,12205,Pave,AllPub,ClearCr,1Fam,8,1966,CBlock,Fa,Gd,GasA,Gd,Y,SBrkr,2,5,1,0,Attchd,2,NP,No Fence,Attchd,Normal,187500
+833,20,RL,100,10004,Pave,AllPub,NAmes,1Fam,6,1964,CBlock,TA,No,GasA,TA,Y,SBrkr,1,3,1,0,Attchd,2,NP,No Fence,Attchd,Normal,167000
+1348,20,RL,NV,16196,Pave,AllPub,SawyerW,1Fam,5,1998,PConc,TA,Gd,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,215000
+222,60,RL,85,11475,Pave,AllPub,NWAmes,1Fam,6,1975,CBlock,TA,No,GasA,TA,Y,SBrkr,2,3,1,1,Attchd,2,NP,MnPrv,Attchd,Normal,179900
+1171,20,RL,76,9120,Pave,AllPub,NAmes,1Fam,6,1958,CBlock,TA,No,GasA,Ex,Y,SBrkr,1,3,1,1,Attchd,2,NP,No Fence,Shed,Normal,163000
+778,90,RH,60,8400,Pave,AllPub,SawyerW,Duplex,5,1977,Slab,No Basement,NB,GasA,TA,Y,SBrkr,2,4,2,2,Detchd,2,NP,No Fence,Detchd,Normal,144000
+815,20,RL,48,12137,Pave,AllPub,CollgCr,1Fam,5,1998,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,0,Attchd,2,NP,No Fence,Attchd,Normal,224900
+725,20,RL,60,6960,Pave,AllPub,NAmes,1Fam,6,1970,CBlock,TA,No,GasA,TA,Y,SBrkr,1,3,1,0,Detchd,2,NP,No Fence,Shed,Normal,120500
+663,85,RL,90,10012,Pave,AllPub,Edwards,1Fam,5,1972,CBlock,TA,Av,GasA,TA,Y,SBrkr,2,3,1,0,Detchd,2,NP,MnPrv,Detchd,Normal,137500
+294,20,RL,80,9600,Pave,AllPub,NAmes,1Fam,5,1953,CBlock,TA,No,GasA,TA,Y,SBrkr,1,3,1,2,Attchd,2,NP,No Fence,Attchd,Normal,167000
+519,70,RL,53,10918,Pave,AllPub,Crawfor,1Fam,9,1926,BrkTil,TA,No,GasA,Ex,Y,SBrkr,1,3,1,2,Detchd,1,NP,MnPrv,Detchd,Normal,234000
+925,20,RL,NV,15611,Pave,AllPub,NWAmes,1Fam,6,1977,PConc,TA,Av,GasA,TA,Y,SBrkr,2,3,1,0,Attchd,2,NP,No Fence,Attchd,Abnorml,175000
+636,30,RM,51,6120,Pave,AllPub,BrkSide,1Fam,3,1936,BrkTil,Fa,No,Grav,Fa,N,FuseA,1,1,1,1,NG,0,NP,No Fence,NG,Normal,60000
+149,50,RM,NV,6240,Pave,AllPub,BrkSide,1Fam,4,1936,BrkTil,TA,No,GasA,Gd,Y,FuseA,1,3,1,0,Detchd,1,NP,No Fence,Detchd,Normal,115000
+0,60,RL,65,8450,Pave,AllPub,CollgCr,1Fam,5,2003,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,0,Attchd,2,NP,No Fence,Attchd,Normal,208500
+948,60,RL,65,14006,Pave,AllPub,CollgCr,1Fam,5,2002,PConc,TA,NB,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,192500
+774,20,RL,110,14226,Pave,AllPub,NridgHt,1Fam,5,2006,PConc,TA,Av,GasA,Gd,Y,SBrkr,2,3,1,1,Attchd,3,NP,No Fence,Attchd,Partial,395000
+265,20,RL,78,12090,Pave,AllPub,NWAmes,1Fam,6,1981,CBlock,TA,No,GasA,TA,Y,SBrkr,2,3,1,1,Attchd,2,NP,GdPrv,Attchd,Normal,175500
+1417,60,RL,NV,16545,Pave,AllPub,NoRidge,1Fam,5,1998,PConc,TA,Mn,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,3,NP,No Fence,Attchd,Normal,340000
+1055,20,RL,104,11361,Pave,AllPub,NWAmes,1Fam,5,1976,CBlock,TA,No,GasA,TA,Y,SBrkr,2,3,1,1,Attchd,2,NP,MnPrv,Attchd,Abnorml,180000
+532,20,RL,60,7200,Pave,AllPub,NAmes,1Fam,7,1955,Slab,No Basement,NB,GasA,Ex,Y,SBrkr,1,2,1,1,Detchd,1,NP,No Fence,Detchd,Normal,107500
+1122,20,RL,NV,8926,Pave,AllPub,Edwards,1Fam,3,1956,CBlock,TA,No,GasA,Ex,Y,FuseA,1,3,1,0,Basment,1,NP,MnPrv,Basment,Abnorml,112000
+90,20,RL,60,7200,Pave,AllPub,NAmes,1Fam,5,1950,Slab,No Basement,NB,GasA,TA,Y,FuseA,1,2,1,0,Detchd,2,NP,No Fence,Detchd,Normal,109900
+1398,50,RL,60,7200,Pave,AllPub,NAmes,1Fam,4,1950,CBlock,TA,No,GasA,Gd,Y,FuseA,1,3,1,0,Attchd,1,NP,GdPrv,Attchd,Normal,138000
+359,60,RL,78,12011,Pave,AllPub,NoRidge,1Fam,5,1998,PConc,TA,Av,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,280000
+718,60,RL,96,10542,Pave,AllPub,NoRidge,1Fam,5,1993,PConc,TA,Gd,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,3,NP,No Fence,Attchd,Normal,341000
+138,60,RL,73,9066,Pave,AllPub,CollgCr,1Fam,5,1999,PConc,TA,Mn,GasA,Ex,Y,SBrkr,2,3,1,2,Attchd,3,NP,GdPrv,Attchd,Normal,230000
+74,50,RM,60,5790,Pave,AllPub,OldTown,1Fam,6,1915,CBlock,TA,No,GasA,Gd,N,SBrkr,2,3,2,0,Detchd,1,NP,No Fence,Detchd,Normal,107400
+75,180,RM,21,1596,Pave,AllPub,MeadowV,Twnhs,5,1973,CBlock,TA,Gd,GasA,TA,Y,SBrkr,1,2,1,0,BuiltIn,1,NP,GdWo,BuiltIn,Normal,91000
+712,120,RL,40,4671,Pave,AllPub,StoneBr,TwnhsE,5,1988,PConc,TA,Mn,GasA,Gd,Y,SBrkr,2,2,1,1,Attchd,2,NP,No Fence,Attchd,Normal,189000
+187,50,RL,60,10410,Pave,AllPub,OldTown,1Fam,7,1916,CBlock,TA,No,GasA,Ex,Y,SBrkr,2,3,1,0,Detchd,1,NP,MnPrv,Detchd,Normal,135000
+1305,20,RL,108,13173,Pave,AllPub,NridgHt,1Fam,5,2006,PConc,TA,No,GasA,Ex,Y,SBrkr,2,2,1,2,Attchd,2,NP,No Fence,Attchd,Normal,325000
+1258,80,RL,59,9587,Pave,AllPub,Gilbert,1Fam,5,2005,PConc,TA,Gd,GasA,Ex,Y,SBrkr,2,2,1,0,Attchd,2,NP,No Fence,Attchd,Normal,190000
+466,20,RL,85,10628,Pave,AllPub,NAmes,1Fam,5,1970,CBlock,Gd,Gd,GasA,TA,Y,SBrkr,1,2,1,1,Attchd,2,NP,GdWo,Attchd,Normal,167000
+1149,70,RM,50,9000,Pave,AllPub,OldTown,1Fam,9,1920,PConc,TA,No,GasA,Ex,Y,SBrkr,1,3,1,0,Detchd,2,NP,No Fence,Detchd,Normal,143000
+585,20,RL,88,11443,Pave,AllPub,Timber,1Fam,5,2005,PConc,TA,Gd,GasA,Ex,Y,SBrkr,2,2,1,2,Attchd,3,NP,No Fence,Attchd,Partial,369900
+101,60,RL,77,9206,Pave,AllPub,SawyerW,1Fam,5,1985,CBlock,TA,No,GasA,TA,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,178000
+1108,60,RL,NV,8063,Pave,AllPub,Gilbert,1Fam,5,2000,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Abnorml,181000
+271,20,RL,73,39104,Pave,AllPub,ClearCr,1Fam,7,1954,CBlock,TA,Gd,GasA,Ex,Y,SBrkr,1,2,1,2,Attchd,2,NP,No Fence,Attchd,Normal,241500
+650,60,FV,65,8125,Pave,AllPub,Somerst,1Fam,6,2007,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,0,Attchd,2,NP,No Fence,Attchd,Normal,205950
+1015,60,RL,70,8400,Pave,AllPub,NWAmes,1Fam,6,2001,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,0,Attchd,2,NP,No Fence,Attchd,Normal,227000
+738,90,RL,60,10800,Pave,AllPub,Edwards,Duplex,5,1987,CBlock,Gd,Gd,GasA,TA,Y,SBrkr,3,3,1,0,NG,0,NP,No Fence,NG,Alloca,179000
+230,20,RL,73,8760,Pave,AllPub,NAmes,1Fam,6,1959,CBlock,TA,No,GasA,TA,Y,SBrkr,1,3,1,0,Attchd,1,NP,No Fence,Attchd,Normal,148000
+924,20,RL,79,10240,Pave,AllPub,NWAmes,1Fam,6,1980,CBlock,TA,No,GasA,TA,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,207500
+954,90,RL,35,9400,Pave,AllPub,Edwards,Duplex,5,1975,CBlock,Gd,Gd,GasA,TA,Y,SBrkr,2,4,0,0,NG,0,NP,No Fence,NG,AdjLand,127500
+951,20,RH,60,7800,Pave,AllPub,SawyerW,1Fam,5,1965,CBlock,TA,No,GasA,Gd,Y,SBrkr,1,3,1,0,Detchd,1,NP,MnPrv,Detchd,Abnorml,119900
+1164,80,RL,NV,16157,Pave,AllPub,Veenker,1Fam,7,1978,PConc,TA,Gd,GasA,Ex,Y,SBrkr,1,2,1,1,Attchd,2,NP,No Fence,Attchd,Normal,194000
+1189,60,RL,60,7500,Pave,AllPub,Gilbert,1Fam,5,1999,PConc,TA,No,GasA,Gd,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,189000
+50,60,RL,NV,13869,Pave,AllPub,Gilbert,1Fam,6,1997,PConc,TA,Av,GasA,Gd,Y,SBrkr,2,3,1,0,Attchd,2,NP,No Fence,Attchd,Normal,177000
+448,50,RM,50,8600,Pave,AllPub,IDOTRR,1Fam,6,1937,BrkTil,TA,No,GasA,TA,Y,SBrkr,2,3,1,1,Detchd,1,NP,No Fence,Detchd,Normal,119500
+501,60,FV,75,9803,Pave,AllPub,Somerst,1Fam,5,2005,PConc,TA,No,GasA,Gd,Y,SBrkr,2,3,1,0,Attchd,2,NP,No Fence,Attchd,Normal,226700
+757,60,RL,NV,11616,Pave,AllPub,Sawyer,1Fam,5,1978,CBlock,TA,Mn,GasA,TA,Y,SBrkr,2,3,1,1,Attchd,2,NP,GdPrv,Attchd,Abnorml,158900
+622,20,RL,71,7064,Pave,AllPub,Sawyer,1Fam,6,1977,CBlock,TA,No,GasA,TA,Y,SBrkr,1,3,1,0,Detchd,2,NP,No Fence,Detchd,Normal,135000
+104,50,RM,NV,7758,Pave,AllPub,IDOTRR,1Fam,4,1931,PConc,TA,No,GasA,Ex,Y,FuseF,1,4,1,2,Detchd,1,NP,No Fence,Detchd,Normal,169500
+91,20,RL,85,8500,Pave,AllPub,NAmes,1Fam,3,1961,CBlock,TA,No,GasA,TA,Y,SBrkr,1,2,1,0,Attchd,2,NP,GdWo,Attchd,Abnorml,98600
+220,20,RL,73,8990,Pave,AllPub,CollgCr,1Fam,5,2006,PConc,TA,Mn,GasA,Ex,Y,SBrkr,2,2,1,0,Attchd,2,NP,No Fence,Attchd,Partial,204900
+1224,60,RL,60,15384,Pave,AllPub,Gilbert,1Fam,5,2004,PConc,TA,Av,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,184000
+638,30,RL,67,8777,Pave,AllPub,Edwards,1Fam,7,1910,CBlock,TA,No,GasA,Gd,Y,FuseA,1,2,1,0,NG,0,NP,MnPrv,NG,Normal,85000
+644,20,FV,85,9187,Pave,AllPub,Somerst,1Fam,5,2009,PConc,TA,Mn,GasA,Ex,Y,SBrkr,2,2,1,1,Attchd,3,NP,No Fence,Attchd,Partial,370878
+1271,20,RL,NV,9156,Pave,AllPub,NWAmes,1Fam,7,1968,CBlock,TA,No,GasA,Gd,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,185750
+573,80,RL,76,9967,Pave,AllPub,Gilbert,1Fam,5,2000,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,1,BuiltIn,2,NP,No Fence,BuiltIn,Normal,170000
+1130,50,RL,65,7804,Pave,AllPub,SWISU,1Fam,3,1928,BrkTil,TA,No,GasA,TA,Y,SBrkr,2,4,1,2,Detchd,2,NP,MnPrv,Detchd,Normal,135000
+623,160,FV,NV,2117,Pave,AllPub,Somerst,TwnhsE,5,2000,PConc,TA,No,GasA,Ex,Y,SBrkr,2,2,1,1,Detchd,2,NP,No Fence,Detchd,Normal,168500
+841,70,RM,60,10440,Pave,AllPub,OldTown,1Fam,8,1904,PConc,TA,No,GasA,Gd,Y,SBrkr,2,3,1,1,Detchd,2,NP,No Fence,Detchd,Normal,157500
+280,60,RL,82,11287,Pave,AllPub,SawyerW,1Fam,6,1989,CBlock,TA,Av,GasA,Gd,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,228500
+83,20,RL,80,8892,Pave,AllPub,NAmes,1Fam,5,1960,CBlock,TA,No,GasA,Gd,Y,SBrkr,1,3,1,0,Detchd,2,NP,No Fence,Detchd,Normal,126500
+31,20,RL,NV,8544,Pave,AllPub,Sawyer,1Fam,6,1966,CBlock,TA,No,GasA,Gd,Y,SBrkr,1,3,1,0,Attchd,1,NP,MnPrv,Attchd,Normal,149350
+772,80,RL,94,7819,Pave,AllPub,Edwards,1Fam,5,1976,CBlock,TA,Av,GasA,TA,Y,SBrkr,1,3,1,1,Detchd,2,NP,MnPrv,Detchd,Abnorml,107000
+823,50,RL,60,9900,Pave,AllPub,SWISU,1Fam,7,1940,BrkTil,TA,No,GasA,TA,Y,SBrkr,2,3,1,1,Detchd,1,NP,GdWo,Detchd,Normal,139500
+293,60,RL,NV,16659,Pave,AllPub,NWAmes,1Fam,7,1977,CBlock,TA,No,GasA,Fa,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,235000
+1168,70,RL,120,13728,Pave,AllPub,Edwards,1Fam,7,1935,CBlock,TA,No,GasA,Ex,Y,SBrkr,2,4,1,2,Basment,2,NP,No Fence,Basment,Normal,235000
+420,90,RM,78,7060,Pave,AllPub,Mitchel,Duplex,5,1997,PConc,Gd,Gd,GasA,Ex,Y,SBrkr,2,2,2,0,Attchd,4,NP,No Fence,Attchd,Alloca,206300
+889,20,RL,128,12160,Pave,AllPub,NAmes,1Fam,4,1953,CBlock,TA,No,GasA,Ex,Y,SBrkr,1,2,1,1,Attchd,2,NP,No Fence,Attchd,Normal,149500
+1427,50,RL,60,10930,Pave,AllPub,NAmes,1Fam,6,1945,CBlock,TA,No,GasA,TA,Y,FuseA,1,3,1,1,Attchd,1,NP,No Fence,Attchd,Normal,140000
+1285,50,RM,50,6000,Pave,AllPub,BrkSide,1Fam,6,1939,CBlock,TA,No,GasA,Ex,Y,FuseF,1,4,1,1,Detchd,1,NP,No Fence,Detchd,Normal,132500
+352,50,RL,60,9084,Pave,AllPub,Edwards,1Fam,6,1941,CBlock,Fa,Mn,GasA,TA,N,SBrkr,1,3,1,0,Detchd,1,NP,No Fence,Detchd,Normal,95000
+893,20,RL,NV,13284,Pave,AllPub,Sawyer,1Fam,5,1954,PConc,TA,Mn,GasA,TA,Y,SBrkr,1,3,1,1,Attchd,1,NP,GdPrv,Attchd,Normal,165000
+1167,60,RL,58,10852,Pave,AllPub,Gilbert,1Fam,5,2000,PConc,TA,No,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,173000
+1193,120,RM,NV,4500,Pave,AllPub,Mitchel,TwnhsE,5,1999,PConc,TA,No,GasA,Ex,Y,SBrkr,2,2,1,0,Attchd,2,NP,No Fence,Attchd,Normal,165000
+1006,20,RL,NV,12155,Pave,AllPub,NAmes,1Fam,3,1970,CBlock,TA,No,GasA,Gd,Y,SBrkr,2,3,1,1,Attchd,2,NP,No Fence,Attchd,Normal,163500
+1126,120,RL,53,3684,Pave,AllPub,Blmngtn,TwnhsE,5,2007,PConc,TA,No,GasA,Ex,Y,SBrkr,2,2,1,1,Attchd,3,NP,No Fence,Attchd,Normal,174000
+160,20,RL,NV,11120,Pave,AllPub,Veenker,1Fam,6,1984,PConc,TA,No,GasA,TA,Y,SBrkr,2,3,1,0,Attchd,2,NP,No Fence,Attchd,Normal,162500
+17,90,RL,72,10791,Pave,AllPub,Sawyer,Duplex,5,1967,Slab,No Basement,NB,GasA,TA,Y,SBrkr,2,2,2,0,CarPort,2,NP,No Fence,Shed,Normal,90000
+842,80,RL,82,9020,Pave,AllPub,NAmes,1Fam,7,1966,CBlock,TA,Gd,GasA,TA,Y,SBrkr,1,3,1,0,Attchd,2,NP,GdPrv,Attchd,Normal,174900
+648,60,RL,70,7700,Pave,AllPub,NAmes,1Fam,5,1966,CBlock,TA,No,GasA,TA,Y,SBrkr,1,4,1,1,Attchd,2,NP,No Fence,Attchd,Normal,155000
+408,60,RL,109,14154,Pave,AllPub,NridgHt,1Fam,5,2006,PConc,Gd,No,GasA,Ex,Y,SBrkr,2,3,1,1,Attchd,3,NP,No Fence,Attchd,Partial,280000
